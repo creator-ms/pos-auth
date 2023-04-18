@@ -1,0 +1,8 @@
+name = "pos-auth"
+language = "rust"
+type = "actor"
+version = "0.1.0"
+
+[actor]
+claims = ["wasmcloud:sqldb"]
+wasm_target = "wasm32-unknown-unknown"
